@@ -6,7 +6,11 @@ interface States {
   personalName: string;
 }
 
-class ContactsFooter extends Component<{}, States> {
+interface FooterProps {
+  propsData: string;
+}
+
+class ContactsFooter extends Component<FooterProps, States> {
   constructor(props: any) {
     super(props);
     this.state = {
@@ -26,6 +30,7 @@ class ContactsFooter extends Component<{}, States> {
   render() {
     return (
       <View>
+        <Text style={TextStyles.text}>{this.props.propsData}</Text>
         <Text style={TextStyles.text}>Your Name: {this.getName()}</Text>
         <Button title="Update Name" onPress={this.setName} />
       </View>

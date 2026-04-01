@@ -16,6 +16,7 @@ class ContactsViaClassComponent extends Component {
       <RenderItem item={item} />
     );
 
+    let footerHeading = 'Contacts Footer Side';
     return (
       <View style={contactsStyles.mainContainer}>
         <Text style={TextStyles.text}>Contacts</Text>
@@ -29,7 +30,7 @@ class ContactsViaClassComponent extends Component {
           />
         </View>
         <View>
-          <ContactsFooter />
+          <ContactsFooter propsData={footerHeading} />
         </View>
       </View>
     );
