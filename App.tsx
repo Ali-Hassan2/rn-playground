@@ -1,6 +1,6 @@
 import { View, Text, Button } from 'react-native';
 import React, { useState } from 'react';
-import { Counter, StudentGrid, TextInput } from './src/components';
+import { Counter, StudentGrid, TextInput, UseEffect } from './src/components';
 import FlatListComponent from './src/components/flat-list';
 import { ContactsViaClassComponent } from './src/screens';
 
@@ -31,7 +31,8 @@ const App = () => {
       <TextInput />
       <FlatListComponent /> */}
       {/* <StudentGrid /> */}
-      <ContactsViaClassComponent />
+      {/* <ContactsViaClassComponent /> */}
+      <UseEffect />
     </View>
   );
 };

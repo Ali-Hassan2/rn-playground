@@ -15,7 +15,6 @@ class ContactsViaClassComponent extends Component {
     const renderItems = ({ item }: ListRenderItemInfo<ItemProps>) => (
       <RenderItem item={item} />
     );
-
     let footerHeading = 'Contacts Footer Side';
     return (
       <View style={contactsStyles.mainContainer}>
