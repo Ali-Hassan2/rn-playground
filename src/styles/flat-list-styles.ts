@@ -22,7 +22,7 @@ const FlatListStyles = StyleSheet.create({
   itemTitle: {
     fontSize: 18,
     fontWeight: '700' as const,
-    color: '#333',
+    color: '#whit',
     marginBottom: 4,
   },
   itemRollNo: {
@@ -53,7 +53,7 @@ const contactsStyles = StyleSheet.create({
     borderRadius: 12,
     paddingVertical: 10,
     paddingHorizontal: 8,
-    marginTop: 10,
+    marginTop: 100,
 
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },

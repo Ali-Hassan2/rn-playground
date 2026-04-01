@@ -2,7 +2,7 @@ import { Component } from 'react';
 import { FlatList, ListRenderItemInfo, Text, View } from 'react-native';
 import { contactsStyles, TextStyles } from '../styles';
 import { FLATLISTDATA } from '../constants';
-import { RenderItem } from '../components';
+import { ContactsFooter, RenderItem } from '../components';
 
 interface ItemProps {
   id: number;
@@ -27,6 +27,9 @@ class ContactsViaClassComponent extends Component {
             scrollEnabled={true}
             showsVerticalScrollIndicator={true}
           />
+        </View>
+        <View>
+          <ContactsFooter />
         </View>
       </View>
     );

@@ -16,7 +16,7 @@ const App = () => {
     setName('Aaqib Bhai');
   };
   return (
-    <View style={{ flex: 1, borderWidth: 4 }}>
+    <View style={{ flex: 1 }}>
       {/* <Text
         style={{
           fontSize: 50,
