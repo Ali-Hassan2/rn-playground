@@ -2,6 +2,7 @@ import { View, Text, Button } from 'react-native';
 import React, { useState } from 'react';
 import { Counter, StudentGrid, TextInput } from './src/components';
 import FlatListComponent from './src/components/flat-list';
+import { ContactsViaClassComponent } from './src/screens';
 
 const App = () => {
   const [namee, setName] = useState<string>('Ali Hassan');
@@ -29,7 +30,8 @@ const App = () => {
       <View style={{ margin: 20 }} />
       <TextInput />
       <FlatListComponent /> */}
-      <StudentGrid />
+      {/* <StudentGrid /> */}
+      <ContactsViaClassComponent />
     </View>
   );
 };
