@@ -20,6 +20,7 @@ const FlatListComponent = () => {
       <View style={FlatListStyles.itemContainer}>
         <Text style={FlatListStyles.itemTitle}>{item.title}</Text>
         <Text style={FlatListStyles.itemRollNo}>Roll No: {item.rollNo}</Text>
+         <Text style={FlatListStyles.itemRollNo}>Roll No: {item.benchNo}</Text>
       </View>
     );
   };
